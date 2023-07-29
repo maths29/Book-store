@@ -1,31 +1,29 @@
-// import logo from './logo.svg';
-// import './App.css';
+// App.js
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import BookList from "./components/BookList";
+import BookForm from "./components/BookForm";
+import Navigation from "./components/Navigation";
+import BookState from "./components/BookState";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+const App = () => {
+  const bookState = BookState();
 
-// export default App;
+  return (
+    <Router>
+      <div>
+        <h1>My Book Library</h1>
+        <Navigation />
+        <Routes>
+          <Route
+            path="/"
+            element={<BookList books={bookState.books} onDelete={bookState.handleDeleteBook} />}
+          />
+          <Route path="/add" element={<BookForm onAdd={bookState.handleAddBook} />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
-
-
-
-
-
+export default App;
