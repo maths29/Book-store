@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a BookStore="readme-top"></a>
 
 <!--
 !!! IMPORTANT !!!
@@ -63,11 +63,11 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [BookStore] <a name="Book Store"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**BookStore**  The Bookstore is a simplified website built with React and Redux. It allows users to view and manage a list of books, including adding and removing books.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,7 +78,9 @@ For more information on the importance of a professional README for your reposit
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>Book List Display</li>
+    <li>Book Form</li>
+    <li>Book Removal</li>
   </ul>
 </details>
 
@@ -98,7 +100,7 @@ For more information on the importance of a professional README for your reposit
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a BookStore="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
@@ -110,11 +112,11 @@ For more information on the importance of a professional README for your reposit
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,11 +210,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **iwu John chinonso**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/maths29)
+- Twitter: [@twitterhandle](https://twitter.com/maths29)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/iwu-john-b92b01148/)
 
 👤 **Author2**
 
@@ -228,9 +230,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Book Detail View**
+- [ ] **User Authentication**
+- [ ] **Book Ratings and Reviews**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

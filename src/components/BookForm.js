@@ -6,7 +6,6 @@ const BookForm = () => (
     <form>
       <input type="text" />
       <input type="text" />
-      <input type="text" />
       <button type="submit">Add Book</button>
     </form>
   </div>
