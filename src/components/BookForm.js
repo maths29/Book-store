@@ -1,21 +1,12 @@
 // components/BookForm.js
 
 const BookForm = () => (
-  <div>
+  <div className="form">
     <h2>Add New Book</h2>
     <form>
-      <div>
-
-        <input type="text" />
-      </div>
-      <div>
-
-        <input type="text" />
-      </div>
-      <div>
-
-        <input type="text" />
-      </div>
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
       <button type="submit">Add Book</button>
     </form>
   </div>
