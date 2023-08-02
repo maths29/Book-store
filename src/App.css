@@ -1,0 +1,66 @@
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.book-el {
+  width: 80%;
+  margin: 1rem auto;
+  border: 1px solid #000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  width: 80%;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  border: 1px solid #000;
+}
+
+.form input {
+  width: 20%;
+  margin-right: 2rem;
+}
+
+.form input:first-child {
+  width: 40%;
+}
+
+.person-profile-container {
+  border: 0.1rem solid var(--white-three);
+  border-radius: 50%;
+  width: 3.8rem;
+  height: 3.8rem;
+  background-image: url(./assets/icons8-person-64.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
+
+.user-action-link {
+  margin-right: 1.4rem;
+}
+
+.complete-percentage {
+  font-size: 3rem;
+}
