@@ -100,38 +100,21 @@ For more information on the importance of a professional README for your reposit
 
 <!-- Features -->
 
-### Key Features <a BookStore="key-features"></a>
+<!-- FUTURE FEATURES -->
 
-> Describe between 1-3 key features of the application.
-
-- *A Github account*
--**Node JS**
--**Webpack**
-**babelrc**
--**A web browser to view output e.g Microsoft Edge.**
--**An IDE e.g Visual studio code.**
--**A terminal.**
-
+## 🔭Key Features <a name="future-features"></a>
+- [ ] **Display a list of books**
+- [ ] **Add a book**
+- [ ] **Remove a selected book**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-
-
-> Add a link to your deployed project.
-
-- 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-In the project directory, you can run:
-
+Initialize project with components (React only).
+Add reducers and actions.
 npm start
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
