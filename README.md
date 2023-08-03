@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a BookStore="readme-top"></a>
 
 <!--
 !!! IMPORTANT !!!
@@ -63,11 +63,11 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [BookStore] <a name="Book Store"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**BookStore**  The Bookstore is a simplified website built with React and Redux. It allows users to view and manage a list of books, including adding and removing books.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,7 +78,9 @@ For more information on the importance of a professional README for your reposit
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>Book List Display</li>
+    <li>Book Form</li>
+    <li>Book Removal</li>
   </ul>
 </details>
 
@@ -98,40 +100,56 @@ For more information on the importance of a professional README for your reposit
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+<!-- FUTURE FEATURES -->
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+## 🔭Key Features <a name="future-features"></a>
+- [ ] **Display a list of books**
+- [ ] **Add a book**
+- [ ] **Remove a selected book**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+Initialize project with components (React only).
+Add reducers and actions.
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-> Describe how a new developer could make use of your project.
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-To get a local copy up and running, follow these steps.
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
+
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
+
+See the section about deployment for more information.
+
+npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
+
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ### Prerequisites
 
 In order to run this project you need:
+clone the project from https://github.com/maths29/Book-store
 
-<!--
-Example command:
+Instead, you can copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 ```sh
  gem install rails
@@ -208,11 +226,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **iwu John chinonso**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/maths29)
+- Twitter: [@twitterhandle](https://twitter.com/maths29)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/iwu-john-b92b01148/)
 
 👤 **Author2**
 
@@ -228,9 +246,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Book Detail View**
+- [ ] **User Authentication**
+- [ ] **Book Ratings and Reviews**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -284,8 +302,8 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
