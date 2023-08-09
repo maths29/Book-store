@@ -6,7 +6,7 @@ import Navigation from './components/Navigation';
 import BookList from './components/BookList';
 import BookForm from './components/BookForm';
 import { addBook } from './redux/books/booksSlice';
-import { checkstatus } from './redux/categories/categoriesSlice';
+import { checkStatus } from './redux/categories/categoriesSlice';
 
 function App() {
   const dispatch = useDispatch();
@@ -33,7 +33,7 @@ function Books({ books, onAdd }) {
 }
 
 function Categories() {
-  const status = useSelector(checkstatus);
+  const status = useSelector((state)=> state.categories);
 
   return (
     <>
@@ -54,18 +54,3 @@ Books.propTypes = {
 
 export default App;
 
-// import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import BookList from './components/BookList';
-// import Category from './components/Category';
-
-// const App = () => (
-//   <Router>
-//     <Routes>
-//       <Route path="/" element={<BookList />} />
-//       <Route path="/categories" element={<Category />} />
-//     </Routes>
-//   </Router>
-// );
-
-// export default App;
