@@ -3,7 +3,7 @@ import React from 'react';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import '../App.css';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/booksSlice';
+import { removeBookItems } from '../redux/books/booksSlice';
 
 const IndividualBook = ({ book }) => {
   const dispatch = useDispatch();
@@ -17,12 +17,12 @@ const IndividualBook = ({ book }) => {
         <p>{book.author}</p>
         <div className="user-action">
           <button type="button" className="user-action-link">Comments</button>
-          <button type="button" onClick={() => dispatch(removeBook(book.item_id))} className="user-action-link">Remove</button>
+          <button type="button" onClick={() => dispatch(removeBookItems(book.item_id))} className="user-action-link">Remove</button>
           <button type="button" className="user-action-link">Edit</button>
         </div>
       </div>
       <div className="complete-percentage">
-        <CircularProgressbar value={progressNum} className="class" />
+        <CircularProgressbar value={progressNum} className="class-pic" />
         <span>{progressNum}</span>
         <span>%</span>
       </div>
