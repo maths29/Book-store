@@ -1,2 +1,9 @@
-const Category = () => <h1>Category</h1>;
+import React from 'react';
+
+const Category = () => (
+  <div>
+    categories
+  </div>
+);
+
 export default Category;
