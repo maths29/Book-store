@@ -63,9 +63,9 @@
 
 .complete-percentage {
   font-size: 3rem;
+  padding: 0 2rem;
 }
 
-.class {
-  width: 4.25rem;
-  height: 4.25rem;
+.class-pic {
+  width: 1.25rem;
 }

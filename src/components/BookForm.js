@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/booksSlice';
+import { v4 as uuid } from 'uuid';
+import { addBookItems } from '../redux/books/booksSlice';
 
 const BookForm = () => {
   const [title, setTitle] = useState('');
@@ -12,12 +13,12 @@ const BookForm = () => {
   const addNewBook = (e) => {
     e.preventDefault();
     const newBook = {
-      item_id: 'item4',
+      item_id: uuid(),
       title,
       author,
       category,
     };
-    dispatch(addBook(newBook));
+    dispatch(addBookItems(newBook));
     setTitle('');
     setAuthor('');
     setCategory('');
