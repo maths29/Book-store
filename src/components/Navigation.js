@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import '../App.css';
+import { FaUserAlt } from 'react-icons/fa';
 
 const Navigation = () => (
   <>
@@ -8,14 +10,16 @@ const Navigation = () => (
         <h1>BookStore CMS</h1>
         <ul className="nav-links">
           <li>
-            <Link to="/">Book</Link>
+            <Link className="nav-book" to="/">Books</Link>
           </li>
           <li>
-            <Link to="/categories">Category</Link>
+            <Link className="nav-cate" to="/categories">Category</Link>
           </li>
         </ul>
       </nav>
-      <div className="person-profile-container" id="profile-img" />
+      <div className="person-profile-container" id="profile-img">
+        <FaUserAlt />
+      </div>
     </div>
     <Outlet />
   </>

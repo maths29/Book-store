@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap');
+
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -6,11 +8,11 @@
 }
 
 .nav-container {
-  width: 80%;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5.9rem;
 }
 
 .nav {
@@ -18,6 +20,29 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.nav h1 {
+  font-size: 1.775rem;
+  font-weight: bold;
+  color: #0290ff;
+}
+
+.nav-book {
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-cate {
+  opacity: 0.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
 }
 
 .book-el {
@@ -30,6 +55,152 @@
   align-items: center;
 }
 
+.bookcms {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  border-right: 4px solid #e8e8e8;
+  padding-right: 30px;
+}
+
+.bookText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+}
+
+.action .titles,
+.authors {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+}
+
+.action .titles {
+  font-size: 1.813rem;
+  letter-spacing: -0.2px;
+  color: #121212;
+  font-weight: 700;
+}
+
+.categories {
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #121212;
+}
+
+.authors {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+}
+
+.btn {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.btn li {
+  border-right: 2px solid #e8e8e8;
+}
+
+.btn li button {
+  border: none;
+  background: transparent;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #4386bf;
+}
+
+.btn li:nth-child(2) {
+  padding-left: 20px;
+}
+
+.btn li:nth-child(3) {
+  border-right: none;
+  padding-left: 16px;
+}
+
+.prgBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.class-pic {
+  width: 4.25rem;
+  height: 4.25rem;
+}
+
+.progress-text {
+  display: flex;
+  flex-direction: column;
+  color: #121212;
+}
+
+.percent {
+  font-size: 2rem;
+}
+
+.stats {
+  opacity: 0.5;
+  font-size: 0.875rem;
+}
+
+.currentbook {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Slab', sans-serif;
+  gap: 10px;
+  margin-right: 12rem;
+}
+
+.current-chapter {
+  font-size: 0.813rem;
+  font-weight: 300;
+  color: #121212;
+  opacity: 0.5;
+}
+
+.current-chapter-data {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #121212;
+  letter-spacing: -0.4px;
+}
+
+.update-btn {
+  width: 11.5rem;
+  height: 2.063rem;
+  border: none;
+  background: #0290ff;
+  border-radius: 4px;
+  font-size: 0.813rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.addbook-btn {
+  width: 11.5rem;
+  height: 2.813rem;
+  margin: 1.188rem 0 0 2.125rem;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #0290ff;
+}
+
 .form {
   width: 80%;
   padding: 1rem 2rem;
@@ -37,35 +208,45 @@
   border: 1px solid #000;
 }
 
+.form h2 {
+  width: 10.875rem;
+  height: 1.5rem;
+  margin: 1.813rem 32.75rem 1.188rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
 .form input {
-  width: 20%;
+  width: 41.5rem;
+  height: 33px;
   margin-right: 2rem;
 }
 
 .form input:first-child {
-  width: 40%;
+  width: 43%;
+}
+
+.action-btn {
+  width: 12.813rem;
+  height: 2.813rem;
+  margin: 1.188rem 2.125rem 0;
+  padding: 0.375rem 0.938rem 0.563rem 1rem;
+  border-radius: 4px;
 }
 
 .person-profile-container {
-  border: 0.1rem solid var(--white-three);
+  border: 1px solid #e8e8e8;
+  width: 2.813rem;
+  height: 2.813rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  width: 3.8rem;
-  height: 3.8rem;
-  background-image: url(./assets/icons8-person-64.png);
-  background-size: 65%;
-  background-repeat: no-repeat;
-  background-position: 50% 20%;
+  color: #0290ff;
 }
 
 .user-action-link {
   margin-right: 1.4rem;
-}
-
-.complete-percentage {
-  font-size: 3rem;
-  padding: 0 2rem;
-}
-
-.class-pic {
-  width: 1.25rem;
 }
