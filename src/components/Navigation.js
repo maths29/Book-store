@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import '../App.css';
+import { FaUserAlt } from 'react-icons/fa';
 
 const Navigation = () => (
   <>
@@ -16,7 +17,9 @@ const Navigation = () => (
           </li>
         </ul>
       </nav>
-      <div className="person-profile-container" id="profile-img" />
+      <div className="person-profile-container" id="profile-img">
+        <FaUserAlt />
+      </div>
     </div>
     <Outlet />
   </>

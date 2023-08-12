@@ -8,11 +8,11 @@
 }
 
 .nav-container {
-  width: 80%;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5.9rem;
 }
 
 .nav {
@@ -23,16 +23,12 @@
 }
 
 .nav h1 {
+  font-size: 1.775rem;
+  font-weight: bold;
   color: #0290ff;
-  width: 15rem;
-  height: 2.313rem;
-  margin: 0.375rem 2.938rem 0.125rem 0;
 }
 
 .nav-book {
-  width: 3.688rem;
-  height: 1rem;
-  margin: 1.125rem 2.563rem 0.688rem 0;
   font-size: 0.813rem;
   letter-spacing: 1.9px;
   color: #121212;
@@ -41,9 +37,6 @@
 }
 
 .nav-cate {
-  width: 6.563rem;
-  height: 1rem;
-  margin: 1.125rem 41.5rem 0.688rem 2.563rem;
   opacity: 0.5;
   text-decoration: none;
   text-transform: uppercase;
@@ -199,13 +192,12 @@
 }
 
 .addbook-btn {
-  width: 9.5rem;
-  height: 2.098rem;
-  border: none;
-  background: #0290ff;
-  border-radius: 4px;
-  font-size: 0.813rem;
-  margin-left: 2rem;
+  width: 11.5rem;
+  height: 2.813rem;
+  margin: 1.188rem 0 0 2.125rem;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
 }
 
 .form {
@@ -226,28 +218,32 @@
 }
 
 .form input {
-  width: 20%;
+  width: 41.5rem;
   height: 33px;
   margin-right: 2rem;
 }
 
 .form input:first-child {
-  width: 40%;
+  width: 43%;
 }
 
 .action-btn {
-  height: 33px;
+  width: 12.813rem;
+  height: 2.813rem;
+  margin: 1.188rem 2.125rem 0;
+  padding: 0.375rem 0.938rem 0.563rem 1rem;
+  border-radius: 4px;
 }
 
 .person-profile-container {
-  border: 0.1rem solid var(--white-three);
+  border: 1px solid #e8e8e8;
+  width: 2.813rem;
+  height: 2.813rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  width: 3.8rem;
-  height: 3.8rem;
-  background-image: url(./assets/icons8-person-64.png);
-  background-size: 65%;
-  background-repeat: no-repeat;
-  background-position: 50% 20%;
+  color: #0290ff;
 }
 
 .user-action-link {

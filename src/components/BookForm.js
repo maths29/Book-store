@@ -30,7 +30,6 @@ const BookForm = () => {
       <h2>Add New Book</h2>
       <form>
         <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Book Name" />
-        <input type="text" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Author" />
         <select className="action-btn" value={category} onChange={(e) => setCategory(e.target.value)}>
           <option value="Action">Action</option>
           <option value="Fiction">Fiction</option>
